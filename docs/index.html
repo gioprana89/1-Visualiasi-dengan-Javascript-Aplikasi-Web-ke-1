@@ -1,0 +1,330 @@
+<html>
+
+
+
+
+<script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+<script src="plotly-2.29.1.min.js" charset="utf-8"></script>
+</script>
+
+
+
+<style>
+
+    a:link {
+      text-decoration: none;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    a:active {
+      text-decoration: underline;
+    }
+    
+    
+    
+    
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center>
+    <table width = "1200px" border = "0">
+        <tr>
+            <td>
+    
+    
+               <center> 
+        <img src = "../gambar/ugi_gif.gif" width = "300px"></img>
+               </center>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <p style="text-align:justify">
+    
+        <font style="color:orange; text-align: justify; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;">
+                <font size = 4>
+        
+         
+                <center>
+        
+          
+               Halo &#128513;. . . .Saya Prana Ugiana Gio, Founder Software Statistika <a href = "https://statcal.com/" target = "_blank">statcal</a>. Salam kenal &#128519; . . . 
+    
+               <br><br>
+    
+    
+               <a href = "https://statcal.com/" target = "_blank"><font color = "red">STATCAL</font></a> | <a href = "https://github.com/gioprana89" target = "_blank"><font color = "red">GITHUB</font></a> | <a href = "https://statkomat.com/" target = "_blank"><font color = "red">STATKOMAT</font></a> 
+        
+    
+               | <a href = "https://share-your-shiny-app.id/" target = "_blank"><font color = "red">SHINY</font></a> 
+    
+               | <a href = "https://indcomp-stats.id/" target = "_blank"><font color = "red">INDCOMP</font></a> 
+    
+               | <a href = "https://www.youtube.com/@STATKOMAT" target = "_blank"><font color = "red">YOUTUBE</font></a> 
+    
+    
+               | <a href = "https://pranaugi-belajar-pemrograman.com/" target = "_blank"><font color = "red">PROGRAMMING</font></a> 
+    
+    
+               | <a href = "https://figshare.com/authors/prana_ugiana_gio/17826386" target = "_blank"><font color = "red">FIGSHARE</font></a> 
+    
+    
+               <br><br>
+    
+               <b><font color = "blue">Email:</font> <font color = "orange">statkomat2019@gmail.com</font></b>
+    
+    
+    
+        </center>
+        
+                </font>
+        </font>
+        </p>	
+        
+        
+    
+    
+    
+        <p style="text-align:justify">
+    
+            <font style="color:blue; text-align: justify; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;">
+                    <font size = 4>
+        
+                        Webiste ini menampilkan visualisasi data menggunakan <a href = "https://plotly.com/javascript/" target="_blank">Plotly JavaScript Open Source Graphing Library</a>.
+                        
+                        </font>
+            </font>
+        </p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            </td>
+    
+    
+            </tr>
+    </table>
+    </center>
+    
+    
+    
+    
+<br>    
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center>
+    <div id="myDiv3" style="width:800px;height:400px;"></div>
+    </center>
+    
+
+
+
+<br><br>
+
+
+
+
+
+
+
+<center>
+    <div id="myDiv"></div>
+    </center>
+    
+
+
+
+
+
+
+
+
+
+    <br><br>
+
+    <br><br>
+    
+    
+    
+        
+        <script>
+    
+    var xValue2 = ['Produk A', 'Produk B', 'Produk C', "Produk D", "Produk E", "Produk F", "Produk G", "Produk H", "Produk I", "Produk J"];
+    
+    var yValue2 = [20, 14, 23, 14, 43, 56, 24, 11, 56, 23];
+    
+    var trace2 = {
+      x: xValue2,
+      y: yValue2,
+      type: 'bar',
+      text: yValue2.map(String),
+      textposition: 'auto',
+      hoverinfo: 'none',
+      marker: {
+        color: ['#adff2f', '#d9e650', '#66ff00', '#ffd800', '#fefe33', '#fdfd96', '#ff6fff', '#fe4eda', '#cc00ff', '#fc0fc0'],
+        opacity: 0.6,
+        line: {
+          color: 'rgb(8,48,107)',
+          width: 1.5
+        }
+      }
+    };
+    
+    var data3 = [trace2];
+    
+    var layout2 = {
+      title: 'Jumlah Produk Terjual',
+      barmode: 'stack'
+    };
+    
+    Plotly.newPlot('myDiv3', data3, layout2);
+    
+          
+        
+        </script>
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+
+
+<script>
+
+var data = [{
+  type: "pie",
+  values: [20, 14, 23, 14, 43, 56, 24, 11, 56, 23],
+  labels: ['Produk A', 'Produk B', 'Produk C', "Produk D", "Produk E", "Produk F", "Produk G", "Produk H", "Produk I", "Produk J"],
+  marker: {
+    colors: ['#adff2f', '#d9e650', '#66ff00', '#ffd800', '#fefe33', '#fdfd96', '#ff6fff', '#fe4eda', '#cc00ff', '#fc0fc0']
+  },
+
+
+  textinfo: "label+percent",
+  textposition: "outside",
+  automargin: true
+}]
+
+var layout = {
+  height: 700,
+  width: 700,
+  margin: {"t": 0, "b": 0, "l": 0, "r": 0},
+  showlegend: false
+  }
+
+Plotly.newPlot('myDiv', data, layout)
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
